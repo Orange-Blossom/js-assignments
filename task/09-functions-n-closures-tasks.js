@@ -1,6 +1,6 @@
 'use strict';
 
-/**********************************************************************************************
+/***********************************************
  *                                                                                            *
  * Plese read the following tutorial before implementing tasks:                               *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions                    *
@@ -8,10 +8,10 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments      *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures                           *
  *                                                                                            *
- **********************************************************************************************/
+ ***********************************************/
 
 
-/**
+/*
  * Returns the functions composition of two specified functions f(x) and g(x).
  * The result of compose is to be a function of one argument, (lets call the argument x),
  * which works like applying function f to the result of applying function g to x, i.e.
@@ -30,7 +30,7 @@ function getComposition(f,g) {
 }
 
 
-/**
+/*
  * Returns the math power function with the specified exponent
  *
  * @param {number} exponent
@@ -51,7 +51,7 @@ function getPowerFunction(exponent) {
 }
 
 
-/**
+/*
  * Returns the polynom function of one argument based on specified coefficients.
  * See: https://en.wikipedia.org/wiki/Polynomial#Definition
  *
@@ -69,7 +69,7 @@ function getPolynom() {
 }
 
 
-/**
+/*
  * Memoizes passed function and returns function
  * which invoked first time calls the passed function and then always returns cached result.
  *
@@ -88,7 +88,7 @@ function memoize(func) {
 }
 
 
-/**
+/*
  * Returns the function trying to call the passed function and if it throws,
  * retrying it specified number of attempts.
  *
@@ -108,7 +108,7 @@ function retry(func, attempts) {
 }
 
 
-/**
+/*
  * Returns the logging wrapper for the specified method,
  * Logger has to log the start and end of calling the specified function.
  * Logger has to log the arguments of invoked function.
@@ -136,7 +136,7 @@ function logger(func, logFunc) {
 }
 
 
-/**
+/*
  * Return the function with partial applied arguments
  *
  * @param {Function} fn
@@ -154,7 +154,7 @@ function partialUsingArguments(fn) {
 }
 
 
-/**
+/*
  * Returns the id generator function that returns next integer starting from specified number every time when invoking.
  *
  * @param {Number} startFrom

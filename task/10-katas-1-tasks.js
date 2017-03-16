@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Returns the array of 32 compass points and heading.
  * See details here:
  * https://en.wikipedia.org/wiki/Points_of_the_compass#32_cardinal_points
@@ -22,7 +22,7 @@ function createCompassPoints() {
 }
 
 
-/**
+/*
  * Expand the braces of the specified string.
  * See https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Brace_expansion
  *
@@ -60,7 +60,7 @@ function* expandBraces(str) {
 }
 
 
-/**
+/*
  * Returns the ZigZag matrix
  *
  * The fundamental idea in the JPEG compression algorithm is to sort coefficient of given image by zigzag path and encode it.
@@ -92,7 +92,7 @@ function getZigZagMatrix(n) {
 }
 
 
-/**
+/*
  * Returns true if specified subset of dominoes can be placed in a row accroding to the game rules.
  * Dominoes details see at: https://en.wikipedia.org/wiki/Dominoes
  *
@@ -117,7 +117,7 @@ function canDominoesMakeRow(dominoes) {
 }
 
 
-/**
+/*
  * Returns the string expression of the specified ordered list of integers.
  *
  * A format for expressing an ordered list of integers is to use a comma separated list of either:

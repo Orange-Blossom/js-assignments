@@ -1,14 +1,14 @@
 'use strict';
 
-/********************************************************************************************
+/**********************************************
  *                                                                                          *
  * Plese read the following tutorial before implementing tasks:                             *
  * https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions           *
  *                                                                                          *
- ********************************************************************************************/
+ **********************************************/
 
 
-/**
+/*
  * Returns the regexp that matches a GUID string representation
  * '{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}',
  * where X is hexadecimal digit (0,1,2...,9,A,a,B,b,C,c,D,d,F,f)
@@ -35,7 +35,7 @@ function getRegexForGuid() {
 }
 
 
-/**
+/*
  * Returns the regexp that matches all the strings from first column
  * but of them from the second
  *
@@ -57,7 +57,7 @@ function getRegexForPitSpot() {
 }
 
 
-/**
+/*
  * Returns the regexp that matches all IPv4 strings in
  * 'XX.XX.XX.XX' dotted format where XX is number 0 to 255
  *
@@ -76,7 +76,7 @@ function getRegexForIPv4() {
 }
 
 
-/**
+/*
  * Returns the regexp that matches all SSN (Social Security Number) codes in
  * 'XXX-XX-XXXX' format where X is digit, where each group can't be all zeros
  * https://en.wikipedia.org/wiki/Social_Security_number
@@ -95,7 +95,7 @@ function getRegexForSSN() {
 }
 
 
-/**
+/*
  * Returns the password validator regex.
  * Regex will validate a password to make sure it meets the follwing criteria:
  *  - At least specified characters long (argument minLength)

@@ -1,15 +1,15 @@
 'use strict';
 
-/********************************************************************************************
+/**********************************************
  *                                                                                          *
  * Plese read the following tutorial before implementing tasks:                             *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators   *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield        *
  *                                                                                          *
- ********************************************************************************************/
+ **********************************************/
 
 
-/**
+/*
  * Returns the lines sequence of "99 Bottles of Beer" song:
  *
  *  '99 bottles of beer on the wall, 99 bottles of beer.'
@@ -37,7 +37,7 @@ function* get99BottlesOfBeer() {
 }
 
 
-/**
+/*
  * Returns the Fibonacci sequence:
  *   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...
  *
@@ -51,7 +51,7 @@ function* getFibonacciSequence() {
 }
 
 
-/**
+/*
  * Traverses a tree using the depth-first strategy
  * See details: https://en.wikipedia.org/wiki/Depth-first_search
  *
@@ -86,7 +86,7 @@ function* depthTraversalTree(root) {
 }
 
 
-/**
+/*
  * Traverses a tree using the breadth-first strategy
  * See details: https://en.wikipedia.org/wiki/Breadth-first_search
  *
@@ -112,7 +112,7 @@ function* breadthTraversalTree(root) {
 }
 
 
-/**
+/*
  * Merges two yield-style sorted sequences into the one sorted sequence.
  * The result sequence consists of sorted items from source iterators.
  *

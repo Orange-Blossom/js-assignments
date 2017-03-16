@@ -1,15 +1,15 @@
 'use strict';
 
-/**************************************************************************************************
+/*************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object        *
  *                                                                                                *
- **************************************************************************************************/
+ *************************************************/
 
 
-/**
+/*
  * Returns the rectagle object with width and height parameters and getArea() method
  *
  * @param {number} width
@@ -27,7 +27,7 @@ function Rectangle(width, height) {
 }
 
 
-/**
+/*
  * Returns the JSON representation of specified object
  *
  * @param {object} obj
@@ -42,7 +42,7 @@ function getJSON(obj) {
 }
 
 
-/**
+/*
  * Returns the object of specified type from JSON representation
  *
  * @param {Object} proto
@@ -58,7 +58,7 @@ function fromJSON(proto, json) {
 }
 
 
-/**
+/*
  * Css selectors builder
  *
  * Each complex selector can consists of type, id, class, attribute, pseudo-class and pseudo-element selectors:

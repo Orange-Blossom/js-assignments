@@ -1,15 +1,15 @@
 'use strict';
 
-/**************************************************************************************************
+/*************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling  *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration              *
  *                                                                                                *
- **************************************************************************************************/
+ *************************************************/
 
 
-/**
+/*
  * Returns the 'Fizz','Buzz' or an original number using the following rules:
  * 1) return original number
  * 2) but if number multiples of three return 'Fizz'
@@ -34,7 +34,7 @@ function getFizzBuzz(num) {
 }
 
 
-/**
+/*
  * Returns the factorial of the specified integer n.
  *
  * @param {number} n
@@ -50,7 +50,7 @@ function getFactorial(n) {
 }
 
 
-/**
+/*
  * Returns the sum of integer numbers between n1 and n2 (inclusive).
  *
  * @param {number} n1
@@ -67,7 +67,7 @@ function getSumBetweenNumbers(n1, n2) {
 }
 
 
-/**
+/*
  * Returns true, if a triangle can be built with the specified sides a,b,c and false in any other ways.
  *
  * @param {number} a
@@ -86,7 +86,7 @@ function isTriangle(a,b,c) {
 }
 
 
-/**
+/*
  * Returns true, if two specified axis-aligned rectangles overlap, otherwise false.
  * Each rectangle representing by object 
  *  {
@@ -123,7 +123,7 @@ function doRectanglesOverlap(rect1, rect2) {
 }
 
 
-/**
+/*
  * Returns true, if point lies inside the circle, otherwise false.
  * Circle is an object of 
  *  {
@@ -154,7 +154,7 @@ function isInsideCircle(circle, point) {
 }
 
 
-/**
+/*
  * Returns the first non repeated char in the specified strings otherwise returns null.
  *
  * @param {string} str
@@ -170,7 +170,7 @@ function findFirstSingleChar(str) {
 }
 
 
-/**
+/*
  * Returns the string representation of math interval, specified by two points and include / exclude flags.
  * See the details: https://en.wikipedia.org/wiki/Interval_(mathematics)
  *
@@ -196,7 +196,7 @@ function getIntervalString(a, b, isStartIncluded, isEndIncluded) {
 }
 
 
-/**
+/*
  * Reverse the specified string (put all chars in reverse order)
  *
  * @param {string} str
@@ -213,7 +213,7 @@ function reverseString(str) {
 }
 
 
-/**
+/*
  * Reverse the specified integer number (put all digits in reverse order)
  *
  * @param {number} num
@@ -230,7 +230,7 @@ function reverseInteger(num) {
 }
 
 
-/**
+/*
  * Validates the CCN (credit card number) and return true if CCN is valid
  * and false otherwise.
  *
@@ -255,7 +255,7 @@ function isCreditCardNumber(ccn) {
 }
 
 
-/**
+/*
  * Returns the digital root of integer:
  *   step1 : find sum of all digits
  *   step2 : if sum > 9 then goto step1 otherwise return the sum
@@ -274,7 +274,7 @@ function getDigitalRoot(num) {
 }
 
 
-/**
+/*
  * Returns true if the specified string has the balanced brackets and false otherwise.
  * Balanced means that is, whether it consists entirely of pairs of opening/closing brackets
  * (in that order), none of which mis-nest.
@@ -300,7 +300,7 @@ function isBracketsBalanced(str) {
 }
 
 
-/**
+/*
  * Returns the human readable string of time period specified by the start and end time.
  * The result string should be constrcuted using the folliwing rules:
  *
@@ -336,7 +336,7 @@ function timespanToHumanString(startDate, endDate) {
 }
 
 
-/**
+/*
  * Returns the string with n-ary (binary, ternary, etc, where n<=10) representation of specified number.
  * See more about
  * https://en.wikipedia.org/wiki/Binary_number
@@ -360,7 +360,7 @@ function toNaryString(num, n) {
 }
 
 
-/**
+/*
  * Returns the commom directory path for specified array of full filenames.
  *
  * @param {array} pathes
@@ -377,7 +377,7 @@ function getCommonDirectoryPath(pathes) {
 }
 
 
-/**
+/*
  * Returns the product of two specified matrixes.
  * See details: https://en.wikipedia.org/wiki/Matrix_multiplication
  *
@@ -400,7 +400,7 @@ function getMatrixProduct(m1, m2) {
 }
 
 
-/**
+/*
  * Returns the evaluation of the specified tic-tac-toe position.
  * See the details: https://en.wikipedia.org/wiki/Tic-tac-toe
  *

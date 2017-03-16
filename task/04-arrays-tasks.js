@@ -1,16 +1,16 @@
 'use strict';
 
-/*********************************************************************************************
+/***********************************************
  *                                                                                           *
  * Plese read the following tutorial before implementing tasks:                              *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array    *
  *                                                                                           *
  * NOTE : Please do not use loops! All tasks can be implmeneted using standard Array methods *
  *                                                                                           *
- *********************************************************************************************/
+ ***********************************************/
 
 
-/**
+/*
  * Returns an index of the specified element in array or -1 if element is not found
  *
  * @param {array} arr
@@ -26,7 +26,7 @@ function findElement(arr, value) {
    return arr.indexOf(value);
 }
 
-/**
+/*
  * Generates an array of odd numbers of the specified length
  *
  * @param {number} len
@@ -48,7 +48,7 @@ function generateOdds(len) {
 }
 
 
-/**
+/*
  * Returns the doubled array - elements of the specified array are repeated twice using original order
  *
  * @param {array} arr
@@ -67,7 +67,7 @@ function doubleArray(arr) {
 }
 
 
-/**
+/*
  * Returns an array of positive numbers from the specified array in original order
  *
  * @param {array} arr
@@ -88,7 +88,7 @@ function getArrayOfPositives(arr) {
    return arr;
 }
 
-/**
+/*
  * Returns the array with strings only in the specified array (in original order)
  *
  * @param {array} arr
@@ -109,7 +109,7 @@ function getArrayOfStrings(arr) {
    return arr;
 }
 
-/**
+/*
  * Removes falsy values from the specified array
  * Falsy values: false, null, 0, "", undefined, and NaN.
  * (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean#Description)
@@ -132,7 +132,7 @@ function removeFalsyValues(arr) {
    return arr;
 }
 
-/**
+/*
  * Returns the array of useprcase strings from the specified array
  *
  * @param {array} arr
@@ -147,7 +147,7 @@ function getUpperCaseStrings(arr) {
 }
 
 
-/**
+/*
  * Returns the array of string lengths from the specified string array.
  *
  * @param {array} arr
@@ -163,7 +163,7 @@ function getStringsLength(arr) {
    })
 }
 
-/**
+/*
  * Inserts the item into specified array at specified index
  *
  * @param {array} arr
@@ -178,7 +178,7 @@ function insertItem(arr, item, index) {
    return arr.splice(index, 0, item);
 }
 
-/**
+/*
  * Returns the n first items of the specified array
  *
  * @param {array} arr
@@ -193,7 +193,7 @@ function getHead(arr, n) {
 }
 
 
-/**
+/*
  * Returns the n last items of the specified array
  *
  * @param {array} arr
@@ -208,7 +208,7 @@ function getTail(arr, n) {
 }
 
 
-/**
+/*
  * Returns CSV represebtation of two-dimentional numeric array.
  * https://en.wikipedia.org/wiki/Comma-separated_values
  *
@@ -232,7 +232,7 @@ function toCsvText(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Transforms the numeric array into the according array of squares:
  *   f(x) = x * x
  *
@@ -248,7 +248,7 @@ function toArrayOfSquares(arr) {
 }
 
 
-/**
+/*
  * Transforms the numeric array to the according moving sum array:
  *     f[n] = x[0] + x[1] + x[2] +...+ x[n]
  *  or f[n] = f[n-1] + x[n]
@@ -266,7 +266,7 @@ function getMovingSum(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Returns every second item from the specified array:
  *
  * @param {array} arr
@@ -289,7 +289,7 @@ function getSecondItems(arr) {
 }
 
 
-/**
+/*
  * Propagates every item in sequence its position times
  * Returns an array that consists of: one first item, two second items, tree third items etc.
  *
@@ -308,7 +308,7 @@ function propagateItemsByPositionIndex(arr) {
 }
 
 
-/**
+/*
  * Returns the 3 largest numbers from the specified array
  *
  * @param {array} arr
@@ -326,7 +326,7 @@ function get3TopItems(arr) {
 }
 
 
-/**
+/*
  * Returns the number of positive numbers from specified array
  *
  * @param {array} arr
@@ -342,7 +342,7 @@ function getPositivesCount(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Sorts digit names
  *
  * @param {array} arr
@@ -359,7 +359,7 @@ function sortDigitNamesByNumericOrder(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Returns the sum of all items in the specified array of numbers
  *
  * @param {array} arr
@@ -375,7 +375,7 @@ function getItemsSum(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Returns the number of all falsy value in the specified array
  *
  * @param {array} arr
@@ -391,7 +391,7 @@ function getFalsyValuesCount(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Returns a number of all occurences of the specified item in an array
  *
  * @param {array} arr
@@ -409,7 +409,7 @@ function findAllOccurences(arr, item) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Concatenates all elements from specified array into single string with ',' delimeter
  *
  * @param {array} arr
@@ -425,7 +425,7 @@ function toStringList(arr) {
 }
 
 
-/**
+/*
  * Sorts the specified array by country name first and city name (if countries are equal) in ascending order.
  *
  * @param {array} arr
@@ -453,7 +453,7 @@ function sortCitiesArray(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Creates an indentity matrix of the specified size
  *
  * @param {number} n
@@ -475,7 +475,7 @@ function getIdentityMatrix(n) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Creates an array of integers from the specified start to end (inclusive)
  *
  * @param {number} start
@@ -492,7 +492,7 @@ function getIntervalArray(start, end) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Returns array containing only unique values from the specified array.
  *
  * @param {array} arr
@@ -507,7 +507,7 @@ function distinct(arr) {
    throw new Error('Not implemented');
 }
 
-/**
+/*
  * Groups elements of the specified array by key.
  * Returns multimap of keys extracted from array elements via keySelector callback
  * and values extracted via valueSelector callback.
@@ -542,7 +542,7 @@ function group(array, keySelector, valueSelector) {
 }
 
 
-/**
+/*
  * Projects each element of the specified array to a sequence and flattens the resulting sequences into one array.
  *
  * @param {array} arr
@@ -558,7 +558,7 @@ function selectMany(arr, childrenSelector) {
 }
 
 
-/**
+/*
  * Returns an element from the multidimentional array by the specified indexes.
  *
  * @param {array} arr
@@ -575,7 +575,7 @@ function getElementByIndexes(arr, indexes) {
 }
 
 
-/**
+/*
  * Swaps the head and tail of the specified array:
  * the head (first half) of array move to the end, the tail (last half) move to the start.
  * The middle element (if exists) leave on the same position.

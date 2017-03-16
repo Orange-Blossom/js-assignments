@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Returns true if word occurrs in the specified word snaking puzzle.
  * Each words can be constructed using "snake" path inside a grid with top, left, right and bottom directions.
  * Each char can be used only once ("snake" should not cross itself).
@@ -32,7 +32,7 @@ function findStringInSnakingPuzzle(puzzle, searchStr) {
 }
 
 
-/**
+/*
  * Returns all permutations of the specified string.
  * Assume all chars in the specified string are different.
  * The order of permutations does not matter.
@@ -49,7 +49,7 @@ function* getPermutations(chars) {
 }
 
 
-/**
+/*
  * Returns the most profit from stock quotes.
  * Stock quotes are stores in an array in order of date.
  * The stock profit is the difference in prices in buying and selling stock.
@@ -69,7 +69,7 @@ function getMostProfitFromStockQuotes(quotes) {
 }
 
 
-/**
+/*
  * Class representing the url shorting helper.
  * Feel free to implement any algorithm, but do not store link in the key\value stores.
  * The short link can be at least 1.5 times shorter than the original url.

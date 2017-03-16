@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Returns the bank account number parsed from specified string.
  *
  * You work for a bank, which has recently purchased an ingenious machine to assist in reading letters and faxes sent in by branch offices.
@@ -38,7 +38,7 @@ function parseBankAccount(bankAccount) {
 }
 
 
-/**
+/*
  * Returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the specified column number.
  * Lines can be broken at word boundaries only.
  *
@@ -67,7 +67,7 @@ function* wrapText(text, columns) {
 }
 
 
-/**
+/*
  * Returns the rank of the specified poker hand.
  * See the ranking rules here: https://en.wikipedia.org/wiki/List_of_poker_hands.
  *
@@ -104,7 +104,7 @@ function getPokerHandRank(hand) {
 }
 
 
-/**
+/*
  * Returns the rectangles sequence of specified figure.
  * The figure is ASCII multiline string comprised of minus signs -, plus signs +, vertical bars | and whitespaces.
  * The task is to break the figure in the rectangles it is made of.
